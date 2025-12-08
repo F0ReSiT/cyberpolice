@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика в Кіберполіції України | Студент 5 курсу Кібербезпека</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Частинки на фоні -->
+    <div id="particles-js"></div>
+    
+    <header id="header">
+        <div class="container header-container">
+            <a href="#hero" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="logo-text">CyberPolice Practice</div>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul class="nav-list" id="navList">
+                    <li><a href="#hero" class="nav-link">Головна</a></li>
+                    <li><a href="#about" class="nav-link">Про практику</a></li>
+                    <li><a href="#threatMap" class="nav-link"><i class="fas fa-map-marked-alt"></i> Карта загроз</a></li>
+                    <li><a href="#cyberQuiz" class="nav-link"><i class="fas fa-graduation-cap"></i> Тест</a></li>
+                    <li><a href="#cyberLab" class="nav-link"><i class="fas fa-flask"></i> Лабораторія</a></li>
+                    <li><a href="#contact" class="nav-link">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Швидка навігація -->
+    <div class="quick-nav" id="quickNav">
+        <div class="quick-nav-item active" data-target="hero" data-tooltip="Головна">
+        </div>
+        <div class="quick-nav-item" data-target="about" data-tooltip="Про практику">
+        </div>
+        <div class="quick-nav-item" data-target="threatMap" data-tooltip="Карта загроз">
+        </div>
+        <div class="quick-nav-item" data-target="cyberQuiz" data-tooltip="Тест">
+        </div>
+        <div class="quick-nav-item" data-target="cyberLab" data-tooltip="Лабораторія">
+        </div>
+        <div class="quick-nav-item" data-target="contact" data-tooltip="Контакти">
+        </div>
+    </div>
+    
+    <!-- Hero секція -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <h1 class="glitch" data-text="Практика в Кіберполіції">Практика в Кіберполіції</h1>
+            <h2>Досвід, який формує мене як спеціаліста</h2>
+            
+            <div class="hero-subtitle">
+                <span class="typewriter" id="typewriter"></span>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="#tasks" class="btn btn-primary">
+                    <i class="fas fa-tasks"></i> Переглянути завдання
+                </a>
+                <a href="#" class="btn btn-secondary" id="downloadResume">
+                    <i class="fas fa-download"></i> Завантажити резюме
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Блок "Про місце практики" -->
+    <section id="about" class="about">
+        <div class="container section-inner">
+            <h2>Про місце практики</h2>
+            
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <p>Кіберполіція України — це спеціалізований підрозділ Національної поліції, який займається виявленням, попередженням та розслідуванням кіберзлочинів. Під час практики я мав можливість ознайомитись із базовими процесами реагування на інциденти, аналізувати дані, опрацьовувати звернення користувачів та досліджувати інструменти цифрової криміналістики.</p>
+                    <p>Як студент 5 курсу спеціальності "Кібербезпека", я отримав унікальний досвід роботи в реальному середовищі, де кожен день — це нові виклики. Мені вдалося застосувати теоретичні знання на практиці та розвинути навички, необхідні для майбутньої кар'єри в галузі кібербезпеки.</p>
+                    <p>Особливо цінним для мене було співпрацювати з досвідченими фахівцями, які поділилися своїми знаннями та показали, як ефективно вирішувати складні задачі в умовах обмеженого часу.</p>
+                </div>
+                
+                <div class="about-icons">
+                    <div class="icon-card fade-in">
+                        <i class="fas fa-user-shield"></i>
+                        <h3>Кіберзахист</h3>
+                        <p>Захист інформаційних систем від атак</p>
+                    </div>
+                    
+                    <div class="icon-card fade-in">
+                        <i class="fas fa-search"></i>
+                        <h3>Аналітика</h3>
+                        <p>Дослідження та аналіз цифрових доказів</p>
+                    </div>
+                    
+                    <div class="icon-card fade-in">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Мережі</h3>
+                        <p>Моніторинг та аналіз мережевої активності</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Блок "Мої завдання під час практики" -->
+    <section id="tasks">
+        <div class="container section-inner">
+            <h2>Мої завдання під час практики</h2>
+            <p>Під час практики в Кіберполіції я виконував різноманітні завдання, що дозволили мені поглибити знання та отримати практичний досвід.</p>
+            
+            <div class="tasks-grid">
+                <div class="task-card fade-in">
+                    <div class="task-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Аналіз підозрілих логів</h3>
+                    <p>Дослідження лог-файлів веб-ресурсів на наявність ознак компрометації та аномальної активності.</p>
+                </div>
+                
+                <div class="task-card fade-in">
+                    <div class="task-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Розробка скриптів</h3>
+                    <p>Створення Python-скриптів для автоматизації перевірки індикаторів компрометації (IoC).</p>
+                </div>
+                
+                <div class="task-card fade-in">
+                    <div class="task-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Створення звітів</h3>
+                    <p>Участь у підготовці внутрішніх звітів про цифрові інциденти з технічною документацією.</p>
+                </div>
+                
+                <div class="task-card fade-in">
+                    <div class="task-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Дослідження фішингу</h3>
+                    <p>Аналіз фішингових доменів та емейлів, виявлення спільних ознак та методик атак.</p>
+                </div>
+                
+                <div class="task-card fade-in">
+                    <div class="task-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Мережевий аналіз</h3>
+                    <p>Робота з мережевим трафіком, налаштування базових правил фаєрволу та аналіз пакетів.</p>
+                </div>
+                
+                <div class="task-card fade-in">
+                    <div class="task-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Обробка даних</h3>
+                    <p>Систематизація та обробка великих масивів даних для подальшого аналізу та звітності.</p>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="#skills" class="btn btn-primary">
+                    <i class="fas fa-arrow-down"></i> Детальніше про виконання
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Кібер-консоль -->
+    <section class="cyber-console">
+        <div class="container section-inner">
+            <h2>Кібер-консоль практиканта</h2>
+            <p>Інтерактивна консоль для демонстрації технічних навичок</p>
+            
+            <div class="console-container">
+                <div class="console-header">
+                    <div class="console-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="console-title">terminal@cyberpolice:~</div>
+                </div>
+                
+                <div class="console-body">
+                    <div class="console-output" id="consoleOutput">
+                        <div class="console-line">$ welcome --cyberpolice-intern</div>
+                        <div class="console-line">> Ініціалізація системи практики...</div>
+                        <div class="console-line">> Статус: <span class="success">Практика активна</span></div>
+                        <div class="console-line">> Введіть команду для перегляду можливостей:</div>
+                        <div class="console-line">$ <span class="blink">_</span></div>
+                    </div>
+                    
+                    <div class="console-input-container">
+                        <span class="prompt">$</span>
+                        <input type="text" class="console-input" id="consoleInput" placeholder="Введіть команду (help для допомоги)" autocomplete="off">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="console-hints">
+                <p>Спробуйте команди: <span class="command">help</span>, <span class="command">skills</span>, <span class="command">tasks</span>, <span class="command">clear</span></p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Блок "Отримані навички" -->
+    <section id="skills" class="skills">
+        <div class="container section-inner">
+            <h2>Отримані навички</h2>
+            <p>Під час практики я отримав практичний досвід та розвинув навички, які будуть корисними в майбутній кар'єрі кібербезпечника.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-item fade-in">
+                    <h3><i class="fas fa-chart-line"></i> Аналіз логів</h3>
+                    <p>SIEM-системи, регулярні вирази (REGEX), аналіз аудит-трейлів</p>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <h3><i class="fas fa-hdd"></i> Цифрова криміналістика</h3>
+                    <p>Робота з образами дисків, аналіз метаданих, відновлення даних</p>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <h3><i class="fas fa-network-wired"></i> Мережева безпека</h3>
+                    <p>TCP/IP, firewall rules, IDS/IPS, аналіз мережевого трафіку</p>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <h3><i class="fas fa-search"></i> Wireshark / tcpdump</h3>
+                    <p>Аналіз пакетів, фільтрація трафіку, виявлення аномалій</p>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <h3><i class="fas fa-code-branch"></i> Git та контроль версій</h3>
+                    <p>Робота з репозиторіями, спільна розробка, ведення документації</p>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <h3><i class="fas fa-robot"></i> Автоматизація</h3>
+                    <p>Python / Bash скрипти для автоматизації рутинних процесів</p>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <h3><i class="fas fa-first-aid"></i> Реагування на інциденти</h3>
+                    <p>Основи IR, етапи реагування, документація інцидентів</p>
+                </div>
+                
+                <div class="skill-item fade-in">
+                    <h3><i class="fas fa-file-contract"></i> Документування</h3>
+                    <p>Створення технічної документації, звітів, інструкцій</p>
+                </div>
+            </div>
+        </div>
+        <!-- 3D кібер-куб -->
+        <div class="cyber-cube-container fade-in">
+            <h3 style="text-align: center; margin-bottom: 2rem;">Кібер-навички у 3D</h3>
+            <div class="cyber-cube" id="cyberCube">
+                <div class="cube-face front">
+                    <div class="face-content">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Захист</h4>
+                    </div>
+                </div>
+                <div class="cube-face back">
+                    <div class="face-content">
+                        <i class="fas fa-search"></i>
+                        <h4>Аналіз</h4>
+                    </div>
+                </div>
+                <div class="cube-face right">
+                    <div class="face-content">
+                        <i class="fas fa-network-wired"></i>
+                        <h4>Мережі</h4>
+                    </div>
+                </div>
+                <div class="cube-face left">
+                    <div class="face-content">
+                        <i class="fas fa-code"></i>
+                        <h4>Код</h4>
+                    </div>
+                </div>
+                <div class="cube-face top">
+                    <div class="face-content">
+                        <i class="fas fa-brain"></i>
+                        <h4>Логіка</h4>
+                    </div>
+                </div>
+                <div class="cube-face bottom">
+                    <div class="face-content">
+                        <i class="fas fa-file-alt"></i>
+                        <h4>Звіти</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cube-controls">
+                <button class="btn-cube-control" id="cubeRotateX"><i class="fas fa-arrows-alt-h"></i> X</button>
+                <button class="btn-cube-control" id="cubeRotateY"><i class="fas fa-arrows-alt-v"></i> Y</button>
+                <button class="btn-cube-control" id="cubeRotateZ"><i class="fas fa-sync-alt"></i> Z</button>
+                <button class="btn-cube-control" id="cubeAutoRotate"><i class="fas fa-play"></i> Авто</button>
+            </div>
+        </div>
+        <!-- Додати в секцію skills -->
+        <div class="skills-counter fade-in">
+            <h3 style="text-align: center; margin-bottom: 2rem;">Прогрес практики</h3>
+            <div class="counter-grid">
+                <div class="counter-item">
+                    <div class="counter-number" data-target="15">0</div>
+                    <div class="counter-label">Виконаних завдань</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-number" data-target="120">0</div>
+                    <div class="counter-label">Годин практики</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-number" data-target="8">0</div>
+                    <div class="counter-label">Отриманих навичок</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-number" data-target="5">0</div>
+                    <div class="counter-label">Технологій освоєно</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Карта кіберзагроз України -->
+    <section class="threat-map" id="threatMap">
+        <div class="container section-inner">
+            <h2><i class="fas fa-map-marked-alt"></i> Карта кіберзагроз України</h2>
+            <p class="section-subtitle">Демонстраційна візуалізація атак, з якими працює Кіберполіція</p>
+            
+            <div class="map-container">
+                <div class="map-visual">
+                    <div class="ukraine-outline">
+                        <!-- Контур України -->
+                        <div class="map-title">КІБЕРЗАГРОЗИ УКРАЇНИ</div>
+                        
+                        <!-- Міста з атаками -->
+                        <div class="city-marker" style="top: 25%; left: 45%;" data-city="kyiv">
+                            <div class="marker-pulse"></div>
+                            <div class="marker-dot"></div>
+                            <div class="city-tooltip">
+                                <strong>Київ</strong><br>
+                                Атак: 142<br>
+                                Тип: Фішинг, DDoS
+                            </div>
+                        </div>
+                        
+                        <div class="city-marker" style="top: 40%; left: 65%;" data-city="kharkiv">
+                            <div class="marker-pulse"></div>
+                            <div class="marker-dot"></div>
+                            <div class="city-tooltip">
+                                <strong>Харків</strong><br>
+                                Атак: 87<br>
+                                Тип: Малуар, Шахрайство
+                            </div>
+                        </div>
+                        
+                        <div class="city-marker" style="top: 55%; left: 30%;" data-city="lviv">
+                            <div class="marker-pulse"></div>
+                            <div class="marker-dot"></div>
+                            <div class="city-tooltip">
+                                <strong>Львів</strong><br>
+                                Атак: 76<br>
+                                Тип: Ransomware
+                            </div>
+                        </div>
+                        
+                        <div class="city-marker" style="top: 60%; left: 55%;" data-city="odesa">
+                            <div class="marker-pulse"></div>
+                            <div class="marker-dot"></div>
+                            <div class="city-tooltip">
+                                <strong>Одеса</strong><br>
+                                Атак: 94<br>
+                                Тип: Фішинг, Спам
+                            </div>
+                        </div>
+                        
+                        <div class="city-marker" style="top: 45%; left: 25%;" data-city="dnipro">
+                            <div class="marker-pulse"></div>
+                            <div class="marker-dot"></div>
+                            <div class="city-tooltip">
+                                <strong>Дніпро</strong><br>
+                                Атак: 68<br>
+                                Тип: Брутфорс, Скамування
+                            </div>
+                        </div>
+                        
+                        <!-- Лінії "атак" -->
+                        <div class="attack-line" style="top: 15%; left: 70%;"></div>
+                        <div class="attack-line" style="top: 35%; left: 80%;"></div>
+                        <div class="attack-line" style="top: 50%; left: 15%;"></div>
+                    </div>
+                </div>
+                
+                <div class="threat-stats">
+                    <h3><i class="fas fa-chart-bar"></i> Статистика загроз</h3>
+                    
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-label">Фішинг</span>
+                            <span class="stat-value">42%</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" data-width="42" style="width: 42%; background: var(--accent-blue);"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-label">Малуар</span>
+                            <span class="stat-value">28%</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" data-width="28" style="width: 28%; background: var(--accent-purple);"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-label">DDoS</span>
+                            <span class="stat-value">15%</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" data-width="15" style="width: 15%; background: var(--accent-orange);"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-label">Ransomware</span>
+                            <span class="stat-value">10%</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" data-width="10" style="width: 10%; background: #ff00ff;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-header">
+                            <span class="stat-label">Інші</span>
+                            <span class="stat-value">5%</span>
+                        </div>
+                        <div class="stat-bar">
+                            <div class="stat-fill" data-width="5" style="width: 5%; background: var(--accent-green);"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="live-attacks">
+                        <h4><i class="fas fa-bolt"></i> Атаки в реальному часі</h4>
+                        <div class="attack-counter">
+                            <span id="attackCount">0</span>
+                            <small>атак за останню годину</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="threat-controls">
+                <button class="threat-btn" id="simulateAttack">
+                    <i class="fas fa-play"></i> Симулювати атаку
+                </button>
+                <button class="threat-btn" id="showDefense">
+                    <i class="fas fa-shield-alt"></i> Показати захист
+                </button>
+                <button class="threat-btn" id="resetMap">
+                    <i class="fas fa-redo"></i> Скинути
+                </button>
+            </div>
+            
+            <div class="map-legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ff5555;"></div>
+                    <span>Висока загроза</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffaa00;"></div>
+                    <span>Середня загроза</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #55ff55;"></div>
+                    <span>Низька загроза</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Тест на кіберграмотність -->
+    <section class="cyber-quiz" id="cyberQuiz">
+        <div class="container section-inner">
+            <h2><i class="fas fa-graduation-cap"></i> Тест на кіберграмотність</h2>
+            <p class="section-subtitle">Перевір свої знання з кібербезпеки. 5 питань від Кіберполіції.</p>
+            
+            <div class="quiz-container">
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="quizProgress" style="width: 20%"></div>
+                    </div>
+                    <div class="progress-text">
+                        Питання <span id="currentQuestion">1</span>/<span id="totalQuestions">5</span>
+                    </div>
+                </div>
+                
+                <div class="quiz-content">
+                    <!-- Питання 1 -->
+                    <div class="quiz-question active" id="question1" data-question="1">
+                        <h3>1. Ви отримали email від банку з посиланням для підтвердження даних картки. Що робити?</h3>
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="false">
+                                <div class="option-marker">A</div>
+                                <div class="option-text">Перейти за посиланням та ввести дані</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="option-marker">B</div>
+                                <div class="option-text">Не відкривати, сповістити банк про можливий фішинг</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="option-marker">C</div>
+                                <div class="option-text">Переслати друзям, щоб перевірили</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Питання 2 -->
+                    <div class="quiz-question" id="question2" data-question="2">
+                        <h3>2. Який пароль найбільш стійкий до атак підбору?</h3>
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="false">
+                                <div class="option-marker">A</div>
+                                <div class="option-text">qwerty123</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="option-marker">B</div>
+                                <div class="option-text">ivan1990</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="option-marker">C</div>
+                                <div class="option-text">P@ssw0rd!2023#Kyiv</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Питання 3 -->
+                    <div class="quiz-question" id="question3" data-question="3">
+                        <h3>3. Що таке двофакторна аутентифікація (2FA)?</h3>
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="false">
+                                <div class="option-marker">A</div>
+                                <div class="option-text">Два різних паролі для одного акаунту</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="option-marker">B</div>
+                                <div class="option-text">Пароль + додатковий код з SMS/додатку</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="option-marker">C</div>
+                                <div class="option-text">Автоматичний вхід на всіх пристроях</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Питання 4 -->
+                    <div class="quiz-question" id="question4" data-question="4">
+                        <h3>4. Як розпізнати фішинговий сайт?</h3>
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="true">
+                                <div class="option-marker">A</div>
+                                <div class="option-text">Неправильна адреса (наприклад, faceb00k.com замість facebook.com)</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="option-marker">B</div>
+                                <div class="option-text">Відсутній SSL сертифікат (замок у рядку адреси)</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="option-marker">C</div>
+                                <div class="option-text">Граматичні помилки та низька якість дизайну</div>
+                            </div>
+                            <div class="quiz-hint">Це питання може мати декілька правильних відповідей!</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Питання 5 -->
+                    <div class="quiz-question" id="question5" data-question="5">
+                        <h3>5. Що робити, якщо ваш комп'ютер заражено вірусом?</h3>
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="false">
+                                <div class="option-marker">A</div>
+                                <div class="option-text">Видалити всі файли з комп'ютера</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="option-marker">B</div>
+                                <div class="option-text">Відключити від інтернету та запустити антивірус</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="option-marker">C</div>
+                                <div class="option-text">Продовжити роботу, ігноруючи попередження</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Результат -->
+                    <div class="quiz-result hidden" id="quizResult">
+                        <div class="result-header">
+                            <div class="result-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h3>Тест завершено!</h3>
+                        </div>
+                        
+                        <div class="result-score">
+                            <div class="score-circle">
+                                <span id="finalScore">0</span>/5
+                            </div>
+                            <div class="score-text">
+                                <h4 id="resultTitle">Ваш результат</h4>
+                                <p id="resultMessage">Тут буде ваш результат</p>
+                            </div>
+                        </div>
+                        
+                        <div class="result-details">
+                            <h4><i class="fas fa-chart-pie"></i> Статистика</h4>
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <div class="stat-value" id="correctAnswers">0</div>
+                                    <div class="stat-label">Правильних відповідей</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="quizTime">0</div>
+                                    <div class="stat-label">Секунд</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="accuracy">0%</div>
+                                    <div class="stat-label">Точність</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="result-actions">
+                            <button class="result-btn" id="retryQuiz">
+                                <i class="fas fa-redo"></i> Пройти знову
+                            </button>
+                            <button class="result-btn" id="shareQuiz">
+                                <i class="fas fa-share-alt"></i> Поділитися
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quiz-controls">
+                    <button class="quiz-btn" id="prevQuestion" disabled>
+                        <i class="fas fa-arrow-left"></i> Назад
+                    </button>
+                    <button class="quiz-btn" id="nextQuestion">
+                        Далі <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="quiz-btn" id="submitQuiz" style="display: none;">
+                        <i class="fas fa-paper-plane"></i> Завершити
+                    </button>
+                </div>
+            </div>
+            
+            <div class="quiz-tips">
+                <h4><i class="fas fa-lightbulb"></i> Поради від Кіберполіції:</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i> Ніколи не надавайте паролі третім особам</li>
+                    <li><i class="fas fa-check"></i> Оновлюйте програмне забезпечення регулярно</li>
+                    <li><i class="fas fa-check"></i> Використовуйте двофакторну аутентифікацію</li>
+                    <li><i class="fas fa-check"></i> Робіть резервні копії важливих даних</li>
+                    <li><i class="fas fa-check"></i> Підозрюйте безкоштовні пропозиції в інтернеті</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Віртуальна лабораторія -->
+    <section class="cyber-lab" id="cyberLab">
+        <div class="container section-inner">
+            <h2><i class="fas fa-flask"></i> Віртуальна лабораторія</h2>
+            <p class="section-subtitle">Спробуй інструменти, які використовуються в Кіберполіції</p>
+            
+            <div class="lab-tools">
+                <div class="tool-card active" data-tool="password">
+                    <div class="tool-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Аналізатор паролів</h3>
+                    <p>Перевір стійкість пароля до атак підбору</p>
+                </div>
+                
+                <div class="tool-card" data-tool="hash">
+                    <div class="tool-icon">
+                        <i class="fas fa-fingerprint"></i>
+                    </div>
+                    <h3>Хеш-генератор</h3>
+                    <p>Створи хеш-сумі для перевірки цілісності файлів</p>
+                </div>
+                
+                <div class="tool-card" data-tool="network">
+                    <div class="tool-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Аналізатор трафіку</h3>
+                    <p>Перевір підозрілий мережевий трафік</p>
+                </div>
+            </div>
+            
+            <div class="lab-workspace">
+                <div class="workspace-header">
+                    <h3 id="toolTitle">Аналізатор паролів</h3>
+                    <div class="workspace-controls">
+                        <button class="workspace-btn" id="clearWorkspace">
+                            <i class="fas fa-trash"></i> Очистити
+                        </button>
+                        <button class="workspace-btn" id="saveWorkspace">
+                            <i class="fas fa-save"></i> Зберегти
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="workspace-content">
+                    <!-- Аналізатор паролів -->
+                    <div class="tool-interface active" id="passwordTool">
+                        <div class="tool-description">
+                            <p>Цей інструмент аналізує стійкість пароля до різних типів атак. Введіть пароль для перевірки:</p>
+                        </div>
+                        
+                        <div class="password-input-group">
+                            <input type="text" id="passwordInput" placeholder="Введіть пароль для аналізу..." 
+                                autocomplete="off" maxlength="50">
+                            <button id="analyzePassword"><i class="fas fa-search"></i> Аналізувати</button>
+                        </div>
+                        
+                        <div class="password-strength">
+                            <h4>Стійкість пароля:</h4>
+                            <div class="strength-meter">
+                                <div class="strength-bar" id="strengthBar"></div>
+                                <div class="strength-text" id="strengthText">Недостатня</div>
+                            </div>
+                            <div class="strength-score" id="strengthScore">0/100</div>
+                        </div>
+                        
+                        <div class="password-analysis">
+                            <h4>Результати аналізу:</h4>
+                            <div class="analysis-grid">
+                                <div class="analysis-item" data-check="length">
+                                    <div class="check-icon"><i class="fas fa-times"></i></div>
+                                    <div class="check-text">Мінімум 8 символів</div>
+                                    <div class="check-details" id="lengthDetails">0/8</div>
+                                </div>
+                                <div class="analysis-item" data-check="uppercase">
+                                    <div class="check-icon"><i class="fas fa-times"></i></div>
+                                    <div class="check-text">Великі літери</div>
+                                    <div class="check-details" id="uppercaseDetails">0</div>
+                                </div>
+                                <div class="analysis-item" data-check="lowercase">
+                                    <div class="check-icon"><i class="fas fa-times"></i></div>
+                                    <div class="check-text">Малі літери</div>
+                                    <div class="check-details" id="lowercaseDetails">0</div>
+                                </div>
+                                <div class="analysis-item" data-check="numbers">
+                                    <div class="check-icon"><i class="fas fa-times"></i></div>
+                                    <div class="check-text">Цифри</div>
+                                    <div class="check-details" id="numbersDetails">0</div>
+                                </div>
+                                <div class="analysis-item" data-check="symbols">
+                                    <div class="check-icon"><i class="fas fa-times"></i></div>
+                                    <div class="check-text">Спецсимволи</div>
+                                    <div class="check-details" id="symbolsDetails">0</div>
+                                </div>
+                                <div class="analysis-item" data-check="common">
+                                    <div class="check-icon"><i class="fas fa-times"></i></div>
+                                    <div class="check-text">Не є популярним паролем</div>
+                                    <div class="check-details" id="commonDetails">Перевірка...</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="password-crack-time">
+                            <h4>Час підбору пароля:</h4>
+                            <div class="crack-time-estimate" id="crackTime">Миттєво</div>
+                            <div class="crack-method" id="crackMethod">Метод: Брутфорс</div>
+                        </div>
+                        
+                        <div class="password-suggestions">
+                            <h4>Рекомендації:</h4>
+                            <ul id="passwordSuggestions">
+                                <li>Використовуйте комбінацію літер, цифр та символів</li>
+                                <li>Уникайте особистої інформації (ім'я, дата народження)</li>
+                                <li>Використовуйте різні паролі для різних сервісів</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Хеш-генератор -->
+                    <div class="tool-interface" id="hashTool">
+                        <div class="tool-description">
+                            <p>Генератор хеш-сумі для перевірки цілісності файлів. Введіть текст або виберіть файл:</p>
+                        </div>
+                        
+                        <div class="hash-input-group">
+                            <textarea id="hashInput" placeholder="Введіть текст для хешування..." rows="4"></textarea>
+                            <div class="file-upload">
+                                <input type="file" id="fileInput" accept=".txt,.pdf,.doc,.jpg,.png">
+                                <label for="fileInput">
+                                    <i class="fas fa-upload"></i> Вибрати файл
+                                </label>
+                                <div class="file-name" id="fileName">Файл не вибрано</div>
+                            </div>
+                        </div>
+                        
+                        <div class="hash-algorithms">
+                            <h4>Алгоритми хешування:</h4>
+                            <div class="algorithms-grid">
+                                <div class="algorithm-option active" data-algorithm="md5">
+                                    <div class="algorithm-name">MD5</div>
+                                    <div class="algorithm-desc">128-бітний хеш</div>
+                                </div>
+                                <div class="algorithm-option" data-algorithm="sha1">
+                                    <div class="algorithm-name">SHA-1</div>
+                                    <div class="algorithm-desc">160-бітний хеш</div>
+                                </div>
+                                <div class="algorithm-option" data-algorithm="sha256">
+                                    <div class="algorithm-name">SHA-256</div>
+                                    <div class="algorithm-desc">256-бітний хеш</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="generate-hash-btn" id="generateHash">
+                            <i class="fas fa-bolt"></i> Згенерувати хеш
+                        </button>
+                        
+                        <div class="hash-results">
+                            <h4>Результати хешування:</h4>
+                            <div class="hash-output">
+                                <div class="hash-algorithm-label" id="hashAlgorithmLabel">MD5:</div>
+                                <div class="hash-value" id="hashValue">Хеш буде згенерований тут...</div>
+                                <button class="copy-hash-btn" id="copyHash">
+                                    <i class="fas fa-copy"></i> Копіювати
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="hash-info">
+                            <h4>Про хешування:</h4>
+                            <p>Хеш-функції перетворюють вхідні дані у фіксований рядок символів. У кіберполіції хеші використовуються для:</p>
+                            <ul>
+                                <li>Перевірки цілісності файлів</li>
+                                <li>Ідентифікації шкідливого програмного забезпечення</li>
+                                <li>Зберігання паролів у безпечному вигляді</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Аналізатор трафіку -->
+                    <div class="tool-interface" id="networkTool">
+                        <div class="tool-description">
+                            <p>Симулятор аналізу мережевого трафіку. Додайте пакети для аналізу:</p>
+                        </div>
+                        
+                        <div class="network-controls">
+                            <button class="network-btn" id="addPacket">
+                                <i class="fas fa-plus"></i> Додати пакет
+                            </button>
+                            <button class="network-btn" id="clearPackets">
+                                <i class="fas fa-trash"></i> Очистити всі
+                            </button>
+                            <button class="network-btn" id="analyzeTraffic">
+                                <i class="fas fa-search"></i> Аналізувати
+                            </button>
+                        </div>
+                        
+                        <div class="packet-list" id="packetList">
+                            <div class="packet-item sample">
+                                <div class="packet-header">
+                                    <div class="packet-id">#1</div>
+                                    <div class="packet-time">14:32:45.123</div>
+                                    <div class="packet-length">64 bytes</div>
+                                </div>
+                                <div class="packet-details">
+                                    <div class="packet-src">Src: 192.168.1.100:54321</div>
+                                    <div class="packet-dst">Dst: 93.184.216.34:80</div>
+                                    <div class="packet-protocol">Protocol: TCP</div>
+                                    <div class="packet-info">HTTP GET /index.html</div>
+                                </div>
+                                <div class="packet-actions">
+                                    <button class="packet-action inspect">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                    <button class="packet-action delete">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="traffic-analysis">
+                            <h4>Аналіз трафіку:</h4>
+                            <div class="analysis-stats">
+                                <div class="stat">
+                                    <div class="stat-value" id="packetCount">0</div>
+                                    <div class="stat-label">Пакетів</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value" id="suspiciousCount">0</div>
+                                    <div class="stat-label">Підозрілих</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value" id="protocolCount">0</div>
+                                    <div class="stat-label">Протоколів</div>
+                                </div>
+                            </div>
+                            
+                            <div class="protocol-distribution">
+                                <h5>Розподіл за протоколами:</h5>
+                                <div class="protocol-bar">
+                                    <div class="protocol-fill tcp" style="width: 60%">TCP: 60%</div>
+                                    <div class="protocol-fill udp" style="width: 25%">UDP: 25%</div>
+                                    <div class="protocol-fill icmp" style="width: 10%">ICMP: 10%</div>
+                                    <div class="protocol-fill other" style="width: 5%">Інші: 5%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="suspicious-activity">
+                                <h5>Підозріла активність:</h5>
+                                <div class="suspicious-list" id="suspiciousList">
+                                    <div class="suspicious-item">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <span>Порт сканування виявлено: багато пакетів на закриті порти</span>
+                                    </div>
+                                    <div class="suspicious-item">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <span>Незахищене HTTP з'єднання (не HTTPS)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="network-info">
+                            <h4>Про аналіз трафіку:</h4>
+                            <p>У Кіберполіції аналіз мережевого трафіку допомагає виявляти:</p>
+                            <ul>
+                                <li>DDoS атаки та сканування портів</li>
+                                <li>Підозрілу комунікацію з відомими шкідливими серверами</li>
+                                <li>Витоки конфіденційної інформації</li>
+                                <li>Аномальну активність в мережі</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lab-info">
+                <div class="info-card">
+                    <i class="fas fa-info-circle"></i>
+                    <h4>Увага!</h4>
+                    <p>Це демонстраційні інструменти. Реальні системи Кіберполіції мають розширеніші функції та працюють з реальними даними.</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Безпека</h4>
+                    <p>Всі операції виконуються локально у вашому браузері. Ніякі дані не надсилаються на сервери.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Блок "Галерея" -->
+    <section id="gallery">
+        <div class="container section-inner">
+            <h2>Галерея</h2>
+            <p>Візуальні матеріали, що демонструють робочі процеси та інструменти (усі зображення є демонстраційними).</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in" data-index="0">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Кібербезпека - аналіз даних" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Аналіз даних</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in" data-index="1">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Мережевий моніторинг" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Мережевий моніторинг</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in" data-index="2">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Кіберзахист" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Кіберзахист</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in" data-index="3">
+                    <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Програмування для безпеки" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Програмування для безпеки</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in" data-index="4">
+                    <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Фішингові атаки" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Фішингові атаки</h4>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in" data-index="5">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Візуалізація даних" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Візуалізація даних</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lightbox для галереї -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="" alt="" class="lightbox-img" id="lightboxImg">
+        </div>
+    </div>
+    
+    <!-- Блок "Контакти" -->
+    <section id="contact">
+        <div class="container section-inner">
+            <h2>Контакти</h2>
+            <p>Зв'яжіться зі мною для отримання додаткової інформації про мій досвід практики в Кіберполіції.</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h3>Олександр Петренко</h3>
+                            <p>Студент 5 курсу, спеціальність "Кібербезпека"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div>
+                            <h3>Навчальний заклад</h3>
+                            <p>Національний технічний університет України</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>student.cybersecurity@example.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Період практики</h3>
+                            <p>Червень 2023 - Серпень 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form fade-in">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Ваше ім'я" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Ваш Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Ваше повідомлення" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Написати мені
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="logo" style="justify-content: center; margin-bottom: 2rem;">
+                <div class="logo-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="logo-text">CyberPolice Practice</div>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#about" class="footer-link">Про практику</a>
+                <a href="#tasks" class="footer-link">Мої завдання</a>
+                <a href="#skills" class="footer-link">Навички</a>
+                <a href="#gallery" class="footer-link">Галерея</a>
+                <a href="#contact" class="footer-link">Контакти</a>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2023 Сайт створено як частина звітності про проходження практики. Усі дані — демонстраційні.</p>
+                <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #666;">Студент 5 курсу спеціальності "Кібербезпека" | Кіберполіція України</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
